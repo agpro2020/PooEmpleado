@@ -18,6 +18,8 @@ public class Uso_Empleado {
 		
 		
 		System.out.println("Nombre: "+ empleado1.dameNombre() + "\nsueldo: " + empleado1.dameSueldo()+ "\nFecha de Alta: " + empleado1.dameFechaContrato());
+		System.out.println("Nombre: "+ empleado2.dameNombre() + "\nsueldo: " + empleado2.dameSueldo()+ "\nFecha de Alta: " + empleado2.dameFechaContrato());
+		System.out.println("Nombre: "+ empleado3.dameNombre() + "\nsueldo: " + empleado3.dameSueldo()+ "\nFecha de Alta: " + empleado3.dameFechaContrato());
 
 	}
 
