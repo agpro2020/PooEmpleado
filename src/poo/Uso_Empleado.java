@@ -1,3 +1,11 @@
+
+/*En estos clases lo  que he hecho ha sido crear objetos en arrays y luego recogerlos coon los dos tipos de bucles for
+ 
+ Video Explicacion Pildoras Informaticas (Clase 35)
+ *  */
+
+
+
 package poo;
 
 import java.util.*;
@@ -22,7 +30,7 @@ public class Uso_Empleado {
 		System.out.println("Nombre: "+ empleado3.dameNombre() + "\nsueldo: " + empleado3.dameSueldo()+ "\nFecha de Alta: " + empleado3.dameFechaContrato());
 */
 		
-		/*------------Almacenamiento En Formato Array y luego la recogo con un " For "--------------*/
+		
 		
 		
 		Empleado [] misEmpleados = new Empleado[3];
@@ -31,7 +39,18 @@ public class Uso_Empleado {
 		misEmpleados [1]= new Empleado(" Ana Lopez", 95000, 1995, 6, 02);
 		misEmpleados [2]= new Empleado("Maria Martín", 105000, 2002, 03, 15);
 		
+		// Con ForEach >>>>>>>>>>>>>>>>
 		
+		for (Empleado i : misEmpleados) {
+			
+			System.out.println("Nombre: " + i.dameNombre() + "Sueldo: " + i.dameSueldo() + "Fecha de Alta: " + i.dameFechaContrato());
+		
+		}
+		
+		
+		// Con  For normal >>>>>>>>>>>>>>>>
+		
+		/*
 		for(int i =0; i < 3; i++) {
 			
 			misEmpleados[i].subeSueldo(i);
@@ -45,6 +64,7 @@ public class Uso_Empleado {
 			System.out.println("Nombre: "+ misEmpleados[i].dameNombre() + "\nSueldo: " + misEmpleados[i].dameSueldo() + "\nFecha de Alta: " + misEmpleados[i].dameFechaContrato() );
 		
 		}
+		*/
 		
 	}
 
