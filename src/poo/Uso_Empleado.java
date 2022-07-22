@@ -39,16 +39,18 @@ public class Uso_Empleado {
 		misEmpleados [1]= new Empleado(" Ana Lopez", 95000, 1995, 6, 02);
 		misEmpleados [2]= new Empleado("Maria Martín", 105000, 2002, 03, 15);
 		
-		// Con ForEach >>>>>>>>>>>>>>>>
+		// --------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Con ForEach  o for mejorado 
 		
 		for (Empleado i : misEmpleados) {
 			
-			System.out.println("Nombre: " + i.dameNombre() + "Sueldo: " + i.dameSueldo() + "Fecha de Alta: " + i.dameFechaContrato());
+			System.out.println();
+			
+			System.out.println("Nombre: " + i.dameNombre() + "\nSueldo: " + i.dameSueldo() + "\nFecha de Alta: " + i.dameFechaContrato());
 		
 		}
 		
 		
-		// Con  For normal >>>>>>>>>>>>>>>>
+		// ------>>>>>>>>>>>>>>>>>>>>>>>>>>For normal 
 		
 		/*
 		for(int i =0; i < 3; i++) {
