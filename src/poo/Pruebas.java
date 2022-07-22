@@ -21,6 +21,7 @@ public class Pruebas {
 	
 	System.out.println(trabajador1.devuelveDatos());
 	System.out.println(trabajador2.devuelveDatos());
+	//
 		
 		
 		
